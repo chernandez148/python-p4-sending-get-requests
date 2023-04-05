@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "https://learn-co-curriculum.github.io/json-site-example/endpoints/locations.json"
+url = "https://alpha-vantage.p.rapidapi.com/query"
 
 response = requests.get(url)
 
